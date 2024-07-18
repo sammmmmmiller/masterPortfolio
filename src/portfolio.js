@@ -63,16 +63,50 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive web application front ends using React-Redux, Angular, and ASP.NET",
-        "⚡ Creating application backends in Node and .NET",
-        "⚡ Developing mobile applications using React Native and Unity",
+        "⚡ Mobile App Development: Building cross-platform mobile apps using React Native.", 
+        "⚡ Back-End/API Development: Designing and implementing REST APIs in .NET and Node frameworks. Managing/updating complex database schemas with SQL.",
+        "⚡ Front-End Integration: Creating responsive UIs using Angular, React, and ASP.NET web forms.",
       ],
       softwareSkills: [
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: ".NET/ASP.NET",
+          fontAwesomeClassname: "simple-icons:dotnet",
+          style: {
+            color: "#512BD4",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "logos:nodejs",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "logos:angular-icon",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
+          skillName: "SQL Server",
+          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
+          style: {
+            color: "#CC2927",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -88,13 +122,6 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -103,127 +130,70 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
           style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            color: "#F05032",
           },
         },
       ],
     },
     {
       title: "Video Game Development",
-      fileName: "FullStackImg",
+      fileName: "GameDevImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Gameplay Programming: Coding core game mechanics and systems in Unity with C# or Unreal with C++ and Blueprints.",
+        "⚡ Multiplayer Networking: Implementing robust and cost-effective multiplayer networking systems for use with Steam and Epic.",
+        "⚡ Asset Creation: Modelling, texturing, and animating game assets in Blender.",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Unity",
+          fontAwesomeClassname: "simple-icons:unity",
           style: {
-            color: "#E34F26",
+            color: "#000000",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Unreal Engine",
+          fontAwesomeClassname: "simple-icons:unrealengine",
           style: {
-            color: "#1572B6",
+            color: "#313131",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
           style: {
-            color: "#CC6699",
+            color: "#239120",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#00599C",
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Blender",
+          fontAwesomeClassname: "simple-icons:blender",
           style: {
-            color: "#61DAFB",
+            color: "#F5792A",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          skillName: "Steam",
+          fontAwesomeClassname: "simple-icons:steam",
           style: {
-            color: "#339933",
+            color: "#000000",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
           style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            color: "#F05032",
           },
         },
       ],
@@ -232,14 +202,14 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Machine Learning: Developing cutting-edge machine learning models with Python and Sci-Kit Learn, TensorFlow, and Keras.",
+        "⚡ Data Preprocessing: Preprocessing and handling large datasets with Pandas, engineering new features to improve model performance.",
+        "⚡ Data Visualization: Creating insightful visualizations with Tableau and Matplotlib.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "logos:tensorflow",
           style: {
             backgroundColor: "transparent",
           },
@@ -254,7 +224,7 @@ const skills = {
         },
         {
           skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          fontAwesomeClassname: "logos:pytorch",
           style: {
             backgroundColor: "transparent",
           },
@@ -268,8 +238,42 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#150458",
+          },
+        },
+        {
+          skillName: "Matplotlib",
+          fontAwesomeClassname: "simple-icons:matplotlib",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "logos:tableau",
+          style: {
+            backgroundColor: "transparent",
+            color: "#E97627",
+          },
+        },
+        {
+          skillName: "Scikit-Learn",
+          fontAwesomeClassname: "simple-icons:scikit-learn",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F7931E",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
         },
       ],
     },
