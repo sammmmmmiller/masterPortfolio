@@ -20,6 +20,7 @@
 
 .greeting-main {
   display: flex;
+  align-items: center;
 }
 
 .greeting-main>* {
@@ -53,10 +54,13 @@
 }
 
 .greeting-image-div>* {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
+.greeting-image-div img {
+  object-fit: contain;
 
+}
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {

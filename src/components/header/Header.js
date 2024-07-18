@@ -5,6 +5,8 @@ import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import { Link as ScrollLink } from "react-scroll"; 
+import { FaChess } from "react-icons/fa";
+
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
@@ -96,6 +98,18 @@ class Header extends Component {
                 >
                   Contact Me
                 </ScrollLink>
+              </li>
+              <li>
+                <a
+                  href="https://www.chess.com/play/username88688343"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  <FaChess />
+                </a>
               </li>
             </ul>
           </header>

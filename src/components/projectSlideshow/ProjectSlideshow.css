@@ -10,7 +10,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .project-content {
@@ -19,13 +18,21 @@
 
 .project-media {
   width: 100%;
-  max-width: 600px;
-  /* Adjust based on your design */
-  height: 400px;
-  /* Adjust based on your design */
+  /* max-width: 600px; */
+  height: 500px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.project-media img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.project-links {
+  margin: 10px;
 }

@@ -11,21 +11,7 @@ class ExperienceAccordion extends Component {
         {this.props.sections.map((section) => {
           return (
             <div className="section" key={section["title"]}>
-              <h2
-                className="section-title"
-                style={{
-                  backgroundColor: `${theme.body}`,
-                  border: `1px solid`,
-                  borderRadius: `5px`,
-                  borderColor: `${theme.headerColor}`,
-                  marginBottom: `3px`,
-                  fontFamily: "Google Sans Regular",
-                  color: `${theme.text}`,
-                  padding: '10px'
-                }}
-              >
-                {section["title"]}
-              </h2>
+              
               <div
                 className="experiences"
                 style={{

@@ -67,9 +67,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Mobile App Development: Building cross-platform mobile apps using React Native.", 
-        "⚡ Back-End/API Development: Designing and implementing REST APIs in .NET and Node frameworks. Managing/updating complex database schemas with SQL.",
-        "⚡ Front-End Integration: Creating responsive UIs using Angular, React, and ASP.NET web forms.",
+        "• Mobile App Development: Building cross-platform mobile apps using React Native.", 
+        "• Back-End/API Development: Designing and implementing REST APIs in .NET and Node frameworks. Managing/updating complex database schemas with SQL.",
+        "• Front-End Integration: Creating responsive UIs using Angular, React, and ASP.NET web forms.",
       ],
       softwareSkills: [
         {
@@ -142,9 +142,9 @@ const skills = {
       title: "Video Game Development",
       fileName: "GameDevImg",
       skills: [
-        "⚡ Gameplay Programming: Coding core game mechanics and systems in Unity with C# or Unreal with C++ and Blueprints.",
-        "⚡ Multiplayer Networking: Implementing robust and cost-effective multiplayer networking systems for use with Steam and Epic.",
-        "⚡ Asset Creation: Modelling, texturing, and animating game assets in Blender.",
+        "• Gameplay Programming: Coding core game mechanics and systems in Unity with C# or Unreal with C++ and Blueprints.",
+        "• Multiplayer Networking: Implementing robust and cost-effective multiplayer networking systems for use with Steam and Epic.",
+        "• Asset Creation: Modelling, texturing, and animating game assets in Blender.",
       ],
       softwareSkills: [
         {
@@ -202,9 +202,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Machine Learning: Developing cutting-edge machine learning models with Python and Sci-Kit Learn, TensorFlow, and Keras.",
-        "⚡ Data Preprocessing: Preprocessing and handling large datasets with Pandas, engineering new features to improve model performance.",
-        "⚡ Data Visualization: Creating insightful visualizations with Tableau and Matplotlib.",
+        "• Machine Learning: Developing cutting-edge machine learning models with Python and Sci-Kit Learn, TensorFlow, and Keras.",
+        "• Data Preprocessing: Preprocessing and handling large datasets with Pandas, engineering new features to improve model performance.",
+        "• Data Visualization: Creating insightful visualizations with Tableau and Matplotlib.",
       ],
       softwareSkills: [
         {
