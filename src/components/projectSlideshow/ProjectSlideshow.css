@@ -1,25 +1,31 @@
 /* src/components/projectSlideshow/ProjectSlideshow.css */
 .project-slideshow {
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-  }
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
-  .slide {
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .project-content {
-    text-align: center;
-  }
-  
-  .project-media img,
-  .project-media video {
-    max-width: 80%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
+}
+
+.project-content {
+  text-align: center;
+}
+
+.project-media {
+  width: 100%;
+  max-width: 600px;
+  /* Adjust based on your design */
+  height: 400px;
+  /* Adjust based on your design */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
