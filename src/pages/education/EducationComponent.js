@@ -28,13 +28,7 @@ class Education extends Component {
                
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
-              <div className="heading-img-div">
-                {/* <img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
-                <EducationImg theme={theme} />
-              </div>
+             
             </div>
           </Fade>
           <Educations theme={this.props.theme} />

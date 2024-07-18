@@ -4,15 +4,28 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./ProjectSlideshow.css";
 
+import hastur from "../../assests/images/hastur.png"; 
+import bungo from "../../assests/images/bungo.gif"; 
+import trivia from "../../assests/images/trivia.gif"; 
+import match from "../../assests/images/match.gif"; 
+import megaphone from "../../assests/images/megaphone.gif"; 
+
+const images = {
+  "megaphone.gif": megaphone,
+  "bungo.gif": bungo,
+  "trivia.gif": trivia,
+  "match.gif": match,
+  "hastur.png": hastur,
+};
 const ProjectSlideshow = ({ projects, theme }) => {
   return (
     <div className="project-slideshow">
-      <Carousel 
-        showArrows={true} 
-        showThumbs={false} 
-        infiniteLoop={true} 
-        showIndicators={true} 
-        showStatus={false} 
+      <Carousel
+        showArrows={true}
+        showThumbs={false}
+        infiniteLoop={true}
+        showIndicators={true}
+        showStatus={false}
         autoPlay={false}
         dynamicHeight={true}
       >
@@ -22,11 +35,7 @@ const ProjectSlideshow = ({ projects, theme }) => {
               <h2>{project.title}</h2>
               <p>{project.blurb}</p>
               <div className="project-media">
-                {project.mediaType === "image" ? (
-                  <img src={project.media} alt={project.title} />
-                ) : (
-                  <video src={project.media} controls />
-                )}
+                <img src={images[project.media]} alt={project.title} />
               </div>
               <a
                 href={project.githubLink}

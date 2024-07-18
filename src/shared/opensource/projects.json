@@ -3,31 +3,29 @@
         {
             "title": "Megaphone Meltdown",
             "blurb": "An endless runner with multiple levels.",
-            "mediaType": "video"
+            "media": "megaphone.gif"
             
         },
         {
             "title": "Mega Match",
             "blurb": "Basic tile matching game.",
-            "mediaType": "image"
+            "media": "match.gif"
 
         },
         {
             "title": "CHEER Trivia",
             "blurb": "Trivia game related to the CHEER show and world of cheerleading.",
-            "mediaType": "image"
+            "media": "trivia.gif"
         },
         {
             "title": "Bungo Bash",
             "blurb": "Super Smash Bros-inspired brawler.",
-            "mediaType": "video",
-            "media": "src\\assests\\videos\\bungo.mp4"
+            "media": "bungo.gif"
         },
         {
             "title": "ChromaThoth",
             "blurb": "Grid-based bullet hell game with horror themes.",
-            "mediaType": "image",
-            "media": "../../assests/images/hastur.png"
+            "media": "hastur.png"
         }
     ]
 }

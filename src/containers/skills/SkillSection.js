@@ -26,15 +26,7 @@ class SkillSection extends Component {
         {skills.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">
-              <Fade left duration={2000}>
-                <div className="skills-image-div">
-                  {/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
-                  ></img> */}
-                  {/* <GetSkillSvg fileName={skill.fileName} theme={theme} /> */}
-                </div>
-              </Fade>
+              
 
               <div className="skills-text-div">
                 <Fade right duration={1000}>

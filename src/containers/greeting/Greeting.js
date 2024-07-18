@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import image1 from "../../assests/images/sam1.jpg"
+import image2 from "../../assests/images/sam2.jpg"
+import image3 from "../../assests/images/sam3.jpg"
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 export default function Greeting(props) {
   const theme = props.theme;
+  const images = [image1, image2, image3];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -29,7 +43,7 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-             
+
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
@@ -37,11 +51,14 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+             
+                <img
+                  alt="Cycling Images"
+                  src={images[currentImageIndex]}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              
+            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>

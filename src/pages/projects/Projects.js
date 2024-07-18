@@ -25,9 +25,7 @@ class Projects extends Component {
         <div className="basic-projects">
         
             <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
-                <ProjectsImg theme={theme} />
-              </div>
+             
               <div className="projects-heading-text-div">
                 <h1 className="projects-heading-text" style={{ color: theme.text }}>
                   {projectsHeader.title}
