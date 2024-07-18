@@ -1,0 +1,25 @@
+/* src/components/projectSlideshow/ProjectSlideshow.css */
+.project-slideshow {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .project-content {
+    text-align: center;
+  }
+  
+  .project-media img,
+  .project-media video {
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
