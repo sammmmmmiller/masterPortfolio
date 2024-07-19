@@ -55,7 +55,7 @@ export default function Greeting(props) {
                 <img
                   alt="Cycling Images"
                   src={images[currentImageIndex]}
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ width: "100%", height: "auto", display: "block", margin:"auto" }}
                 />
               
             {/* <FeelingProud theme={theme} /> */}

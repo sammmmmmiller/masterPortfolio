@@ -130,6 +130,13 @@ const skills = {
           },
         },
         {
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
+          style: {
+            color: "#F7DF1E",
+          },
+        },
+        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
@@ -158,7 +165,7 @@ const skills = {
           skillName: "Unreal Engine",
           fontAwesomeClassname: "simple-icons:unrealengine",
           style: {
-            color: "#313131",
+            color: "#000000",
           },
         },
         {
@@ -245,13 +252,7 @@ const skills = {
             color: "#150458",
           },
         },
-        {
-          skillName: "Matplotlib",
-          fontAwesomeClassname: "simple-icons:matplotlib",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+        
         {
           skillName: "Tableau",
           fontAwesomeClassname: "logos:tableau",
@@ -260,14 +261,7 @@ const skills = {
             color: "#E97627",
           },
         },
-        {
-          skillName: "Scikit-Learn",
-          fontAwesomeClassname: "simple-icons:scikit-learn",
-          style: {
-            backgroundColor: "transparent",
-            color: "#F7931E",
-          },
-        },
+       
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
