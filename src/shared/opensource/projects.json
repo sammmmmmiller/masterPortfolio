@@ -2,13 +2,13 @@
     "data": [
         {
             "title": "Bungo Bash",
-            "blurb": "Super Smash Bros-inspired brawler.",
+            "blurb": "Super Smash Bros-inspired brawler",
             "media": "bungo.gif",
             "steamLink": "https://store.steampowered.com/app/2480980/Bungo_Bash/"
         },
         {
             "title": "Megaphone Meltdown",
-            "blurb": "An endless runner with multiple levels.",
+            "blurb": "An endless runner with multiple levels",
             "media": "megaphone.gif",
             "androidLink": "https://play.google.com/store/apps/details?id=com.blacksleevemedia.cheer3dAndroid&hl=en_US&gl=US",
             "iosLink": "https://apps.apple.com/us/app/cheer-official-3d/id1581111883",
@@ -18,7 +18,7 @@
         },
         {
             "title": "Mega Match",
-            "blurb": "Basic tile matching game.",
+            "blurb": "Basic tile matching game",
             "media": "match.gif",
             "androidLink": "https://play.google.com/store/apps/details?id=com.blacksleevemedia.cheer3dAndroid&hl=en_US&gl=US",
             "iosLink": "https://apps.apple.com/us/app/cheer-official-3d/id1581111883",
@@ -28,7 +28,7 @@
         },
         {
             "title": "CHEER Trivia",
-            "blurb": "Trivia game related to the CHEER show and world of cheerleading.",
+            "blurb": "Trivia game related to the CHEER show and world of cheerleading",
             "media": "trivia.gif",
             "androidLink": "https://play.google.com/store/apps/details?id=com.blacksleevemedia.cheer3dAndroid&hl=en_US&gl=US",
             "iosLink": "https://apps.apple.com/us/app/cheer-official-3d/id1581111883",
@@ -38,7 +38,7 @@
         
         {
             "title": "ChromaThoth",
-            "blurb": "Grid-based bullet hell game with horror themes.",
+            "blurb": "Cosmic horror bullet hell with grid-based movement",
             "media": "hastur.png",
             "itchioLink": "https://tommezzie.itch.io/chromathoth"
         }

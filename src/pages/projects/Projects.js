@@ -42,13 +42,7 @@ class Projects extends Component {
           <ProjectSlideshow projects={selectedProjects} theme={theme} />
         </div>
 
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
+        
 
         {publications.data.length > 0 && (
           <div className="basic-projects">
