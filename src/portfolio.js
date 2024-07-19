@@ -403,7 +403,7 @@ const contactPageData = {
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
     link: "",
-    avatar_image_path: "blogs_image.svg",
+    avatar_image_path: "",
   },
   addressSection: {
     title: "Address",
@@ -413,7 +413,7 @@ const contactPageData = {
     region: "Georgia",
     postalCode: "30329",
     streetAddress: "",
-    avatar_image_path: "address_image.svg",
+    avatar_image_path: "",
     
   },
   phoneSection: {
